@@ -45,16 +45,16 @@ function calcular() {
     num2 = parseFloat(num2);
     switch (operacao) {
         case '+':
-            res = Calculadora.adicionar(num1, num2);
+            res = mycalc.somar(num1, num2);
             break;
         case '-':
-            res = Calculadora.subtrair(num1, num2);
+            res = mycalc.subtrair(num1, num2);
             break;
         case '/':
-            res = Calculadora.dividir(num1, num2);
+            res = mycalc.dividir(num1, num2);
             break;
         case '*':
-            res = Calculadora.multiplicar(num1, num2);
+            res = mycalc.multiplicar(num1, num2);
             break;
     }
     res = res.toString();
