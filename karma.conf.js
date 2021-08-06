@@ -1,16 +1,18 @@
 // Karma configuration
 // Generated on Wed Aug 04 2021 16:56:05 GMT-0400 (Horário Padrão do Amazonas)
 
+const browserify = require("browserify")
+
 module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '',
+    basePath: 'C:\Users\Geisi\Documents\TDD\mycalc-fic>',
 
 
     // frameworks to use
     // available frameworks: https://www.npmjs.com/search?q=keywords:karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'browserify'],
 
 
     // list of files / patterns to load in the browser
@@ -27,6 +29,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://www.npmjs.com/search?q=keywords:karma-preprocessor
     preprocessors: {
+       'spec/**/*Spec.js':['browserify'],
     },
 
 
