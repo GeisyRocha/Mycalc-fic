@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Tue Aug 03 2021 08:33:19 GMT-0400 (Horário Padrão do Amazonas)
+// Generated on Wed Aug 04 2021 16:56:05 GMT-0400 (Horário Padrão do Amazonas)
 
 module.exports = function(config) {
   config.set({
