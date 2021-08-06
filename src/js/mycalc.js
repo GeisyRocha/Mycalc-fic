@@ -46,7 +46,6 @@ var mycalc = {
 	 	  return  Math . round( resultado * 100 )  /  100 ;
 
 
-	
 	 }
 
 }
